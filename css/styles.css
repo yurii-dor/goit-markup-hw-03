@@ -1,0 +1,35 @@
+:root {
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+}
+.title-color {
+    color: var(--title-text-color);
+}    
+.link {
+    color: black;
+}
+.link-color:hover,
+.link-color:focus {
+    color: #2196F3;
+}   
+.text-color {
+    color: var(--primary-text-color);
+}
+.section-team {
+    background-color: #F5F4FA;
+}
+.page-footer {
+    background-color: #3A392F;
+}
+.footer-text {
+    color: #ffffff;
+}
+.logo-title {
+    color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
