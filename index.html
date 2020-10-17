@@ -7,35 +7,30 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header>
+    <header class="header">
+      <div class="container">
       <!--навігація сторінки-->
-      <nav>
-        <a class="title-color" href="./index.html" aria-label="логотип вебстудии"><span class="logo-title">Web</span>Studio</a>
-        <ul>
-          <li>
-            <a href="./index.html" class="link-color">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link-color">Портфолио</a>
-          </li>
-          <li>
-            <a href="./index.html" class="link-color">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <!--Контакти-->
-      <ul>
-        <li>
-          <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </address>
-        </li>
-        <li>
-          <address>
-            <a href="tel:+380961111111">+38 096 111 11 111</a>
-          </address>
-        </li>
-      </ul>
+        <nav class="navigation">
+         <a class="title-color logo" href="./index.html" aria-label="логотип вебстудии"><span class="logo-title">Web</span>Studio</a>
+          <ul class="navigation-list list">
+           <li class="navigation-list-item">
+             <a href="./index.html" class="link-color">Студия</a>
+           </li>
+           <li class="navigation-list-item">
+             <a href="./portfolio.html" class="link-color">Портфолио</a>
+           </li>
+           <li class="navigation-list-item">
+             <a href="./index.html" class="link-color">Контакти</a>
+           </li>
+          </ul>
+        </nav>
+             <address class="address">
+               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+             </address>
+             <address>
+               <a href="tel:+380961111111">+38 096 111 11 111</a>
+             </address>
+      </div>
     </header>
     <main>
         <!--Головна секція-->
@@ -47,7 +42,7 @@
         <!--Що ми робимо-->
         <section>
             <div>
-                <ul>
+                <ul class="list">
                     <li>
                         <h2 class="title-color">Внимание к деталям</h2>
                         <p class="text-color">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -68,9 +63,9 @@
             </div>
           </section>
           <section>
-            <div>
+            <div class="">
                 <h2 class="title-color">Чем мы занимаемся</h2>
-                <ul>
+                <ul class="list">
                     <li>
                         <img src="./image/box1.png" alt="набирает текст" width="370" height="294">
                     </li>
@@ -86,7 +81,7 @@
         <!--Команда-->
         <section class="section-team">
             <h3 class="title-color">Наша команда</h3>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./image/team-card1.jpg" alt="Игорь Демьяненко" width="270" height="260">
                     <h3> Игорь Демьяненко </h3>

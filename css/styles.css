@@ -3,6 +3,55 @@
     --title-text-color: #212121;
     --primary-text-color: #757575;
 }
+
+/*скидання налаштувань*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}   
+img {
+    display: block;
+}   
+.list {
+    list-style: none;
+}
+/*----header-----*/
+.header {
+    padding: 25px 0;
+}
+.header .container  {
+    display: flex;
+    align-items: center;
+} 
+.header .address{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+} 
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 94px;
+}
+.navigation-list-item:not(:last-child){
+    margin-right: 52px;
+}
+
+/*-----------------------------*/
+
 .title-color {
     color: var(--title-text-color);
 }    
@@ -16,9 +65,11 @@
 .text-color {
     color: var(--primary-text-color);
 }
+/*----------наша команда------------*/
 .section-team {
     background-color: #F5F4FA;
 }
+/*-----------футер----------*/
 .page-footer {
     background-color: #3A392F;
 }
