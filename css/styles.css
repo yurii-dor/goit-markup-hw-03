@@ -214,10 +214,6 @@
     padding-bottom: 30px;
     width: 270px;
     background: #ffffff;
-  
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
   }
   .team-list-item:not(:last-child(4)) {
     margin-right: 30px;
@@ -276,8 +272,7 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
   }
   .footer-contacts-mail:hover,
   .footer-contacts-phone:hover,
@@ -286,7 +281,6 @@
     color: var(--accent-color);
   }
   /*-------------portfolio-------------*/
-  /*------------filter---------------*/
   .our-project {
     padding: 94px 0;
   }
@@ -318,8 +312,6 @@
   .filter-list-button:focus {
     color: #ffffff;
     background: #2196f3;
-  }
-  /*----------------PORTFOLIO----------------*/
   .portfolio-list {
     display: flex;
     flex-wrap: wrap;
