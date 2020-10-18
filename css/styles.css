@@ -312,6 +312,7 @@
   .filter-list-button:focus {
     color: #ffffff;
     background: #2196f3;
+  }  
   .portfolio-list {
     display: flex;
     flex-wrap: wrap;
